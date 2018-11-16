@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  <h1>Hola!</h1>
+
+    <% (1..50).each do |num| %>
+      <% if num % 2 == 0 %>
+        <%= "#{num} - Soy par!" %><br>
+      <% else %>
+        <%= "#{num} - Soy impar!" %><br>
+      <% end %>
+    <% end %>
+
+    
+  </body>
+</html>
